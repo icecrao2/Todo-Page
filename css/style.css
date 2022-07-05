@@ -1,3 +1,25 @@
+@import "reset.css";
+@import "./component/quotes.css";
+@import "./component/clock.css";
+@import "./component/login-form.css";
+
 .hidden {
   display:none;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body__column{
+  height:50%;
+}
+
+.body__column:first-child{
+  display:flex;
+  align-items: flex-end;
 }
