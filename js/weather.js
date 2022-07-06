@@ -11,6 +11,7 @@ function onGeoOk(location){
     const nameContainer= document.querySelector("#weather span:nth-child(2)");
     weatherContainer.innerText = `${data.weather[0].main} / ${data.main.temp}`;
     nameContainer.innerText= data.name;
+    nameContainer.classList.add("block");
     
   });
 };
