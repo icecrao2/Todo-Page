@@ -2,9 +2,15 @@
 @import "./component/quotes.css";
 @import "./component/clock.css";
 @import "./component/login-form.css";
+@import "./component/weather.css";
+@import "./component/greeting.css";
+@import "./component/todo-form.css";
+@import "./component/todo-list.css";
+
+
 
 .hidden {
-  display:none;
+  display:none !important;
 }
 
 body{
@@ -17,9 +23,23 @@ body{
 
 .body__column{
   height:50%;
+  width:100%;
 }
 
-.body__column:first-child{
+.body__column--top{
   display:flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.body__column--bottom{
+  padding-top:40px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block{
+  display: block;
 }
