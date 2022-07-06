@@ -1,0 +1,11 @@
+#todo-list{
+  box-sizing: border-box;
+}
+
+#todo-list li{
+  margin-bottom:10px;
+  display:flex;
+  justify-content: space-between;
+  font-size:30px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
