@@ -1,0 +1,19 @@
+#todo-list{
+  box-sizing: border-box;
+  width: 600px;
+  display:flex;
+  flex-wrap: wrap;  
+  flex-shrink:0;
+  flex-grow: 0;
+  background-color:rgba(0,0,0,0.6);
+  
+}
+
+#todo-list li{
+  width:300px;
+  margin-bottom:10px;
+  display:flex;
+  justify-content: space-between;
+  font-size:30px;
+  color:white;
+}

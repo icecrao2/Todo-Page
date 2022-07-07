@@ -1,0 +1,12 @@
+#quote{
+  color:black;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  margin-bottom:80px;
+  font-size:30px;
+  width:600px;
+  font-weight:800;
+}
+
+#quote p:first-child{
+  word-break: break-word;
+}
