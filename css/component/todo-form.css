@@ -8,3 +8,11 @@
   box-sizing: border-box;
   transition: border 0.2s ease-in-out;
 }
+
+
+@media screen and (max-width:720px){
+   #todo-form input{
+    width:338px;
+    font-size: 25px;
+  }
+}
