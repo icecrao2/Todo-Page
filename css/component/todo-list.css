@@ -17,3 +17,13 @@
   font-size:30px;
   color:white;
 }
+
+ @media screen and (max-width:720px){
+      #todo-list{
+      width: 330px;
+      }
+      #todo-list li{
+        width:50%;
+        font-size:15px;
+      }
+ }
