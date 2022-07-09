@@ -8,38 +8,45 @@
 @import "./component/todo-list.css";
 
 
+    .hidden {
+      display:none !important;
+    }
+    
+    body{
+      height:100vh;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .body__column{
+      width:100%;
+    }
+    
+    .body__column--top{
+      height:30%;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .body__column--bottom{
+      height:70%;
+      padding-top:40px;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .block{
+      display: block;
+    }
 
-.hidden {
-  display:none !important;
-}
 
-body{
-  height:100vh;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.body__column{
-  width:100%;
-}
-
-.body__column--top{
-  height:30%;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.body__column--bottom{
-  height:70%;
-  padding-top:40px;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.block{
-  display: block;
-}
+    @media screen and (max-width:720px){
+      body{
+        width:min-content;
+        overflow:visible;
+      }
+    }
