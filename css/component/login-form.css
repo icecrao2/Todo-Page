@@ -54,3 +54,14 @@
 .login-form__btn:hover, .login-form__btn:active, .login-form__btn:focus{
   font-size:40px;
 }
+
+@media screen and (max-width:720px){
+  .login-form__input{
+    width:338px;
+    font-size: 25px;
+  }
+  .login-form__btn{
+    width:338px;
+    
+  }
+}
