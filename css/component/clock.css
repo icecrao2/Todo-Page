@@ -1,6 +1,18 @@
+
 #clock{
   text-shadow:  0 3px black, 0 -3px black, 3px 0 black, -3px 0 black;
   color:white;
-  font-size:128px;
   margin-bottom:40px;
+}
+
+
+@media screen and (min-width: 710px){
+  #clock{
+    font-size:128px;
+  }
+}
+
+@media screen and (max-width: 710px){
+    font-size:80px;
+  }
 }
